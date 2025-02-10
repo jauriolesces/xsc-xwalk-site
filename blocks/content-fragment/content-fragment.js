@@ -25,7 +25,7 @@ export default function decorate(block) {
   quoteDiv.replaceWith(adventureDiv);
 
 
-fetch(AEM_HOST + '/graphql/execute.json/aem-demo-assets/adventure-by-slug;slug=' + slug)
+fetch(AEM_HOST + '/graphql/execute.json/aem-demo-assets/adventure-by-slug-v2;slug=' + slug)
 .then(response => response.json())
 .then(response => {
 
