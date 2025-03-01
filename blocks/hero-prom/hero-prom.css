@@ -3,17 +3,17 @@
   }
   
   /* Container Styles */
-  main .hero-container {
+  main .hero-prom-container {
     padding: 2rem 2rem 0;
   
   }
   
-  main .hero-container > div {
+  main .hero-prom-container > div {
     max-width: var(--large-grid-layout);
   }
   
-  /* Hero block Styles */
-  .block.hero {
+  /* hero-prom block Styles */
+  .block.hero-prom {
     position: relative;
     display: flex;
     padding: 5rem 10rem;
