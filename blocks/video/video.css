@@ -1,29 +1,29 @@
 .video {
   text-align: center;
   max-width: 100%;
-  width: 100vw; /* Use the full viewport width */
+  width: 100%;
   margin: 32px auto;
 }
 
 .video[data-embed-is-loaded="false"]:not(.placeholder) {
   /* Maintain aspect ratio for responsive behavior */
   aspect-ratio: 16 / 9;
-  width: 100vw; /* Full viewport width */
+  width: 100%;
 }
 
 .video > div {
   display: flex;
   justify-content: center;
-  width: 100vw; /* Full viewport width */
+  width: 100%;
 }
 
 .video video {
-  width: 100vw; /* Full viewport width */
+  width: 100%;
   height: auto;
 }
 
 .video .video-placeholder {
-  width: 100vw; /* Full viewport width */
+  width: 100%;
   aspect-ratio: 16 / 9;
   position: relative;
 }
