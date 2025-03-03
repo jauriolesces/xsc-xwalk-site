@@ -199,6 +199,71 @@
     ]
   },
   {
+    "id": "hero-video",
+    "fields": [
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "uri",
+        "label": "Video Source"
+      },
+      {
+        "component": "aem-content",
+        "valueType": "string",
+        "name": "teaserPictureUri",
+        "label": "Teaser Picture"
+      },
+      {
+        "component": "multiselect",
+        "name": "classes",
+        "value": "",
+        "label": "Classes",
+        "valueType": "string",
+        "options": [
+          {
+            "name": "Auto Play",
+            "children": [
+              {
+                "name": "AutoPlay",
+                "value": "autoplay"
+              }
+            ]
+          },
+          {
+            "name": "Loop",
+            "children": [
+              {
+                "name": "Loop",
+                "value": "loop"
+              }
+            ]
+          },
+          {
+            "name": "Mute",
+            "children": [
+              {
+                "name": "Mute",
+                "value": "muted"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "component": "text",
+        "valueType": "string",
+        "name": "videotitle",
+        "label": "Video Title"
+      },
+      {
+        "component": "richtext",
+        "valueType": "string",
+        "name": "overlaytext",
+        "label": "Video Text"
+      }
+    ]
+  },
+  {
     "id": "featured-article",
     "fields": [
       {
