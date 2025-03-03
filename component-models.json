@@ -199,25 +199,19 @@
     ]
   },
   {
-    "id": "hero-video",
+    "id": "video",
     "fields": [
       {
         "component": "aem-content",
         "valueType": "string",
         "name": "uri",
-        "label": "Video URI"
-      },
-      {
-        "component": "aem-content",
-        "valueType": "string",
-        "name": "teaserPictureUri",
-        "label": "Teaser Picture URI"
+        "label": "Video"
       },
       {
         "component": "multiselect",
         "name": "classes",
         "value": "",
-        "label": "Classes",
+        "label": "Options",
         "valueType": "string",
         "options": [
           {
@@ -228,38 +222,22 @@
                 "value": "autoplay"
               }
             ]
-          },
-          {
-            "name": "Loop",
-            "children": [
-              {
-                "name": "Loop",
-                "value": "loop"
-              }
-            ]
-          },
-          {
-            "name": "Mute",
-            "children": [
-              {
-                "name": "Mute",
-                "value": "muted"
-              }
-            ]
           }
         ]
       },
       {
-        "component": "text",
+        "component": "reference",
         "valueType": "string",
-        "name": "videoTitle",
-        "label": "Video Title"
+        "name": "placeholder_image",
+        "label": "Placeholder Image",
+        "multi": true
       },
       {
-        "component": "richtext",
+        "component": "text",
         "valueType": "string",
-        "name": "overlayText",
-        "label": "Overlay Text"
+        "name": "placeholder_imageAlt",
+        "value": "",
+        "label": "Placeholder Image Alt Text"
       }
     ]
   },
