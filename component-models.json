@@ -205,13 +205,13 @@
         "component": "aem-content",
         "valueType": "string",
         "name": "uri",
-        "label": "Video Source"
+        "label": "Video URI"
       },
       {
         "component": "aem-content",
         "valueType": "string",
         "name": "teaserPictureUri",
-        "label": "Teaser Picture"
+        "label": "Teaser Picture URI"
       },
       {
         "component": "multiselect",
@@ -259,7 +259,7 @@
         "component": "richtext",
         "valueType": "string",
         "name": "overlayText",
-        "label": "Video Text"
+        "label": "Overlay Text"
       }
     ]
   },
