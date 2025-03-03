@@ -252,13 +252,13 @@
       {
         "component": "text",
         "valueType": "string",
-        "name": "videotitle",
+        "name": "videoTitle",
         "label": "Video Title"
       },
       {
         "component": "richtext",
         "valueType": "string",
-        "name": "overlaytext",
+        "name": "overlayText",
         "label": "Video Text"
       }
     ]
